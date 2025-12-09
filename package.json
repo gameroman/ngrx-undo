@@ -1,6 +1,6 @@
 {
   "name": "ngrx-undo-v2",
-  "version": "17.0.4",
+  "version": "20.0.0",
   "description": "Undo support for @ngrx/store",
   "license": "MIT",
   "repository": {
@@ -9,8 +9,8 @@
   },
   "author": "Brecht Billiet <billietbrecht@gmail.com> (http://www.brecht.io/)",
   "engines": {
-    "node": ">= 4",
-    "npm": ">= 3"
+    "node": ">= 18.18.0",
+    "npm": ">= 9"
   },
   "scripts": {
     "karma": "karma start --single-run",
@@ -28,26 +28,26 @@
   "main": "./bundles/ngrx-undo.umd.js",
   "module": "./index.js",
   "devDependencies": {
-    "@angular/compiler": "^17.0.8",
-    "@angular/compiler-cli": "^17.0.8",
-    "@angular/core": "^17.0.8",
-    "@ngrx/store": "^17.0.1",
-    "@types/node": "^18.15.3",
+    "@angular/compiler": "20.3.15",
+    "@angular/compiler-cli": "20.3.15",
+    "@angular/core": "20.3.15",
+    "@ngrx/store": "20.1.0",
+    "@types/node": "^20.11.30",
     "awesome-typescript-loader": "^2.2.1",
     "core-js": "^2.4.1",
     "cpy-cli": "^1.0.1",
     "rimraf": "2.5.4",
     "rollup": "^0.34.13",
-    "rxjs": "^6.5.5",
+    "rxjs": "^7.8.1",
     "ts-loader": "^0.8.2",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
-    "typescript": "5.2",
+    "typescript": "~5.8.2",
     "uglify-js": "^3.4.9",
-    "zone.js": "^0.14.2"
+    "zone.js": "~0.15.0"
   },
   "peerDependencies": {
-    "@ngrx/store": "^17.0.1"
+    "@ngrx/store": "20.1.0"
   },
   "bugs": {
     "url": "https://github.com/pilz97/ngrx-undo/issues"
